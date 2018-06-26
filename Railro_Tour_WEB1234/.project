@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Railro_Tour_WEB1234</name>
 	<comment></comment>
 	<projects>
 		<project>cos</project>
 		<project>cubrid_jdbc</project>
 		<project>json_simple-1.1</project>
+=======
+	<name>Railro_Tour_WEB</name>
+	<comment></comment>
+	<projects>
+>>>>>>> refs/remotes/origin/master
 	</projects>
 	<buildSpec>
 		<buildCommand>

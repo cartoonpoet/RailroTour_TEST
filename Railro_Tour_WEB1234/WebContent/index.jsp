@@ -3,9 +3,15 @@
     <%
     request.setCharacterEncoding("UTF-8");
 %>
+<<<<<<< HEAD
 
 <%String ID = null, PW = null;
 1111
+=======
+hi
+<%String ID = null, PW = null;
+
+>>>>>>> refs/remotes/origin/master
 Cookie cookies[] = request.getCookies();
 
 if(cookies!=null) {
