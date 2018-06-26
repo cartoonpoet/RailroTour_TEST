@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Railro_Tour_WEB/src"/>
+	<classpathentry kind="src" path="Railro_Tour_WEB1234/src"/>
+	<classpathentry kind="src" path="RailroTour_TEST/Railro_Tour_WEB/src"/>
+	<classpathentry kind="src" path="RailroTour_TEST/Railro_Tour_WEB1234/src"/>
+	<classpathentry kind="lib" path="Railro_Tour_WEB/WebContent/WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="lib" path="Railro_Tour_WEB/WebContent/WEB-INF/lib/cubrid_jdbc.jar"/>
+	<classpathentry kind="lib" path="Railro_Tour_WEB/WebContent/WEB-INF/lib/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="Railro_Tour_WEB1234/WebContent/WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="lib" path="Railro_Tour_WEB1234/WebContent/WEB-INF/lib/cubrid_jdbc.jar"/>
+	<classpathentry kind="lib" path="Railro_Tour_WEB1234/WebContent/WEB-INF/lib/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="RailroTour_TEST/Railro_Tour_WEB/WebContent/WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="lib" path="RailroTour_TEST/Railro_Tour_WEB/WebContent/WEB-INF/lib/cubrid_jdbc.jar"/>
+	<classpathentry kind="lib" path="RailroTour_TEST/Railro_Tour_WEB/WebContent/WEB-INF/lib/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="RailroTour_TEST/Railro_Tour_WEB1234/WebContent/WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="lib" path="RailroTour_TEST/Railro_Tour_WEB1234/WebContent/WEB-INF/lib/cubrid_jdbc.jar"/>
+	<classpathentry kind="lib" path="RailroTour_TEST/Railro_Tour_WEB1234/WebContent/WEB-INF/lib/json_simple-1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="RailroTour_TEST/Railro_Tour_WEB/build/classes"/>
+</classpath>
