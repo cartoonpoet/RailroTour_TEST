@@ -17,42 +17,39 @@
 -->
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="true" version="3.1">
   <display-name>Member</display-name>
-	<servlet>
-		<servlet-name>MemberFrontController</servlet-name>
-		<servlet-class>net.member.action.MemberFrontController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>MemberFrontController</servlet-name>
-		<url-pattern>*.me</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>SearchFrontController</servlet-name>
-		<servlet-class>net.search.action.SearchFrontController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>SearchFrontController</servlet-name>
-		<url-pattern>*.se</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>NoteFrontController</servlet-name>
-		<servlet-class>net.note.action.NoteFrontController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>NoteFrontController</servlet-name>
-		<url-pattern>*.pl</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>NoticeFrontController</servlet-name>
-		<servlet-class>net.notice.action.NoticeFrontController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>NoticeFrontController</servlet-name>
-		<url-pattern>*.no</url-pattern>
-	</servlet-mapping>
-	 <servlet>
+  <servlet>
+    <servlet-name>MemberFrontController</servlet-name>
+    <servlet-class>net.member.action.MemberFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MemberFrontController</servlet-name>
+    <url-pattern>*.me</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SearchFrontController</servlet-name>
+    <servlet-class>net.search.action.SearchFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchFrontController</servlet-name>
+    <url-pattern>*.se</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NoteFrontController</servlet-name>
+    <servlet-class>net.note.action.NoteFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoteFrontController</servlet-name>
+    <url-pattern>*.pl</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NoticeFrontController</servlet-name>
+    <servlet-class>net.notice.action.NoticeFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoticeFrontController</servlet-name>
+    <url-pattern>*.no</url-pattern>
+  </servlet-mapping>
+  <servlet>
     <servlet-name>AroundFrontController</servlet-name>
     <servlet-class>net.around_me.action.AroundFrontController</servlet-class>
   </servlet>
