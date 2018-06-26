@@ -6,7 +6,7 @@
 
 <%String ID = null, PW = null;
 
-Cookie cookies[] = request.getCookies();'
+Cookie cookies[] = request.getCookies();
 
 if(cookies!=null) {
       for(int i = 0; i<cookies.length; i++){
