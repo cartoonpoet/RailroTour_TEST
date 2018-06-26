@@ -3,7 +3,7 @@
     <%
     request.setCharacterEncoding("UTF-8");
 %>
-
+hi
 <%String ID = null, PW = null;
 
 Cookie cookies[] = request.getCookies();
